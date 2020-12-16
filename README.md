@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.com/VitaliyNasypov/job4j_pooh.svg?branch=master)](https://travis-ci.com/VitaliyNasypov/job4j_pooh)
 [![codecov](https://codecov.io/gh/VitaliyNasypov/job4j_pooh/branch/master/graph/badge.svg?token=34ZW4HBXLB)](https://codecov.io/gh/VitaliyNasypov/job4j_pooh)
 <br>
-В этом проекте мы делаем аналог асинхронной очереди RabbitMQ. Приложение запускает Socket и ждёт клиентов. Клиенты могут быть двух типов: отправители (publisher) и получатели (subscriver). В качестве протокола будет использоваться HTTP, а сообщения в формате JSON. Существуют два режима: queue, topic. 
+В этом проекте мы делаем аналог асинхронной очереди RabbitMQ. Приложение запускает Socket и ждёт клиентов. Клиенты могут быть двух типов: отправители (publisher) и получатели (subscriver). В качестве протокола будет использоваться HTTP, а сообщения в формате JSON. Существуют два режима: queue, topic. При проектировании использовался паттерн Наблюдатель (observer).
 <br><br>
 
 <b>Режим Queue</b>
