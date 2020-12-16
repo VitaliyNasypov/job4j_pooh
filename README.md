@@ -17,7 +17,6 @@ POST /queue
   "text" : "temperature +18 C"
 }
 <br>
-
 GET /queue/weather
 {
   "queue" : "weather",
@@ -28,19 +27,16 @@ GET /queue/weather
 
 <b>Режим Topic</b>
 <br>
-
 Отправить посылает сообщение с указанием темы. Получатель читает первое сообщение и удаляет его из очереди. Если приходят несколько получателей, то они читают отдельные очереди.
 <br>
 Пример запросов:
 <br>
-
 POST /topic
 {
   "topic" : "weather",
   "text" : "temperature +18 C"
 }
 <br>
-
 GET /topic/weather
 {
   "topic" : "weather",
